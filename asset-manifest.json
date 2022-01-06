@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/ui-micro-web-1/static/css/main.4c35cb1b.chunk.css",
+    "main.js": "/ui-micro-web-1/static/js/main.05eb4777.chunk.js",
+    "main.js.map": "/ui-micro-web-1/static/js/main.05eb4777.chunk.js.map",
+    "runtime-main.js": "/ui-micro-web-1/static/js/runtime-main.b507d7cb.js",
+    "runtime-main.js.map": "/ui-micro-web-1/static/js/runtime-main.b507d7cb.js.map",
+    "static/css/2.4659568d.chunk.css": "/ui-micro-web-1/static/css/2.4659568d.chunk.css",
+    "static/js/2.3f91dc65.chunk.js": "/ui-micro-web-1/static/js/2.3f91dc65.chunk.js",
+    "static/js/2.3f91dc65.chunk.js.map": "/ui-micro-web-1/static/js/2.3f91dc65.chunk.js.map",
+    "static/js/3.28d7b2ab.chunk.js": "/ui-micro-web-1/static/js/3.28d7b2ab.chunk.js",
+    "static/js/3.28d7b2ab.chunk.js.map": "/ui-micro-web-1/static/js/3.28d7b2ab.chunk.js.map",
+    "index.html": "/ui-micro-web-1/index.html",
+    "static/css/2.4659568d.chunk.css.map": "/ui-micro-web-1/static/css/2.4659568d.chunk.css.map",
+    "static/css/main.4c35cb1b.chunk.css.map": "/ui-micro-web-1/static/css/main.4c35cb1b.chunk.css.map",
+    "static/js/2.3f91dc65.chunk.js.LICENSE.txt": "/ui-micro-web-1/static/js/2.3f91dc65.chunk.js.LICENSE.txt",
+    "static/media/Service-2_comp.7ccb383d.png": "/ui-micro-web-1/static/media/Service-2_comp.7ccb383d.png",
+    "static/media/Service-3_comp.84646ede.png": "/ui-micro-web-1/static/media/Service-3_comp.84646ede.png",
+    "static/media/about-3-bg.231b7b26.png": "/ui-micro-web-1/static/media/about-3-bg.231b7b26.png",
+    "static/media/about-banner.a1bd8808.png": "/ui-micro-web-1/static/media/about-banner.a1bd8808.png",
+    "static/media/careers.style.scss": "/ui-micro-web-1/static/media/form-man.9f06970a.png",
+    "static/media/great-work.e8504206.png": "/ui-micro-web-1/static/media/great-work.e8504206.png",
+    "static/media/innovative-bg.f6121c75.jpg": "/ui-micro-web-1/static/media/innovative-bg.f6121c75.jpg",
+    "static/media/main-banner.11cea883.png": "/ui-micro-web-1/static/media/main-banner.11cea883.png",
+    "static/media/portfolio_1_comp.cf8e6a79.png": "/ui-micro-web-1/static/media/portfolio_1_comp.cf8e6a79.png",
+    "static/media/portfolio_2_comp.b47ffef0.png": "/ui-micro-web-1/static/media/portfolio_2_comp.b47ffef0.png",
+    "static/media/portfolio_3_comp.81a79e92.png": "/ui-micro-web-1/static/media/portfolio_3_comp.81a79e92.png",
+    "static/media/portfolio_4_comp.27feaaf5.png": "/ui-micro-web-1/static/media/portfolio_4_comp.27feaaf5.png",
+    "static/media/portfolio_5_comp.d9299150.png": "/ui-micro-web-1/static/media/portfolio_5_comp.d9299150.png",
+    "static/media/portfolio_6_comp.c372af72.png": "/ui-micro-web-1/static/media/portfolio_6_comp.c372af72.png",
+    "static/media/sub-servcie-img.style.scss": "/ui-micro-web-1/static/media/service-gen-img.0b33e032.png",
+    "static/media/services-banner.54de43b4.png": "/ui-micro-web-1/static/media/services-banner.54de43b4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b507d7cb.js",
+    "static/css/2.4659568d.chunk.css",
+    "static/js/2.3f91dc65.chunk.js",
+    "static/css/main.4c35cb1b.chunk.css",
+    "static/js/main.05eb4777.chunk.js"
+  ]
+}

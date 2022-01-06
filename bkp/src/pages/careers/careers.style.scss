@@ -1,0 +1,118 @@
+#careers{
+    .main-container{
+        // padding: 10px 0px 40px;
+        // background-color: #F4F5F7;
+        box-shadow: unset;
+        .inner-container{
+            
+            .content-wrapper{
+               
+                .heading-content{
+                    margin-bottom: 40px;
+                    .heading{
+                        max-width: 60%;
+                        text-align: center;
+                        margin: 0 auto;
+                        
+                        h1{
+                            font-size: 2rem;
+                            font-weight: bold;
+                        }
+                    }
+                    .description{
+                        text-align: center;
+                        font-weight: 400;
+                        font-size: 22px;
+                        width: 55%;
+                        margin: 0 auto;
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+                    }
+                }
+                .form-content{
+                    background-color: #BCD74C;
+                    padding: 30px 40px;
+                    border-radius: 15px;
+                    .form-wrapper{
+                        .heading{
+                            margin: 20px 0px 30px;
+                            h2{
+                                font-size: 1.5rem;
+                                font-weight: bold;
+                            }
+                        }
+                        input, textarea, select{
+                            background-color: #EDF4CF;
+                            padding:12px;
+                            &::placeholder{
+                                color:#000;
+                            }
+                        }
+                        .btn-primary {
+                            color: #000;
+                            background-color: #C9DF70;
+                            border-color: #C9DF70;
+                            width: 100%;
+                            padding: 18px;
+                            font-size: 22px;
+                            font-weight: 600;
+                            &:hover{
+                                background-color: #cfe966;
+                            }
+                        }
+                        
+                    }
+                }
+                .what-next-content{
+                    
+                    height: 100%;
+                    margin:0px 20px;
+                    position: relative;
+                    .what-next-wrapper{
+                        background-color: #fff;
+                        padding: 30px 25px;
+                        border-radius: 15px;
+                        height: 100%;
+                        .heading{
+                            margin: 20px 0px 30px;
+                            h2{
+                                font-size: 1.5rem;
+                                font-weight: bold;
+                            }
+                        }
+                        .detail{
+                            
+                            ol{
+                                li:last-child{
+                                    margin-right: 45px;
+                                }
+                                li{
+                                    font-size: 18px;
+                                    margin-bottom: 15px;
+                                    line-height: 28px;
+                                    a{
+                                        text-decoration: none;
+                                        color:#BCD74C;
+                                    }
+                                }
+                                
+                            }
+                            &::after{
+                                content: "";
+                                background-image: url('../../assets/images/form-man.png');
+                                position: absolute;
+                                width: 225px;
+                                height: 400px;
+                                bottom: -23px;
+                                background-size: contain;
+                                right: -65px;
+                                background-repeat: no-repeat;
+                                z-index: 9;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

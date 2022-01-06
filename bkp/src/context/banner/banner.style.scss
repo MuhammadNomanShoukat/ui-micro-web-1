@@ -1,0 +1,60 @@
+#banner{
+    .main-container{
+        box-shadow: unset;
+        .inner-container{
+            .content-wrapper{
+                padding:30px;
+                margin-bottom: 90px;
+                .content{
+                    // min-height: 100%;
+                    // display: flex;
+                    // flex-direction: column;
+                    // justify-content: center;
+                    img{
+                        width: 100%;
+                        margin: 0px 10px;
+                        
+                    }
+                    .heading-wrapper{
+                        margin: 40px 0px;
+                        padding:0px;
+                        
+                        .heading-text{
+                            text-align: left;
+                            h2{
+                                font-size: 3.5rem;
+                            }
+                        }
+                    }
+                    h2{
+                        font-size: 40px;
+                    }
+                    h5{
+                        color: #212934;
+                        font-size: 24px;
+                        margin-bottom: 15px;
+                        font-weight: 300;
+                    }
+                    .desc{
+                        font-size: 18px;
+                        margin-bottom: 15px;
+                        font-weight: 400;
+                        max-width: 90%;
+                    }
+                    .btn-wrapper{
+                        display: flex;
+                        margin-top: 20px;
+                        .custom-button-wrapper{
+                            margin-right:20px;
+                        }
+
+                        .about-us{
+
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

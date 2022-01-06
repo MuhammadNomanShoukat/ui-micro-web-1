@@ -1,0 +1,39 @@
+#our_strategy_section{
+    .main-container{
+        box-shadow: unset;
+        .strategies-list-preview{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        background-color: #fbfbf9;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        padding: 50px 30px 60px 30px;
+        .container{
+            .our-strategy-wrapper{
+                .content{
+                    margin-top: 25px;
+                    margin-bottom: 15px;
+                    padding: 0px 30px 20px;
+                    .heading{
+                        font-size: 36px;
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        h2{
+                            margin: 0;
+                            font-size: 1em;
+                            line-height: 53px;
+                            color: #20232f;
+                            font-weight: bold;
+                            .green-text{
+                                color: #97b325
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

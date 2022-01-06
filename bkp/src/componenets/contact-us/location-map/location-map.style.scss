@@ -1,0 +1,46 @@
+#location_map{
+    .main-container{
+        padding: 10px 0px 40px;
+        box-shadow: unset;
+        background-color: unset;
+        .inner-container{
+            
+            .content-wrapper{
+               .heading-content{
+                   margin-bottom: 0px;
+                   min-height:100%;
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: center;
+                   .heading{
+                       text-align: left;
+                       .h3{
+                            margin-top: 5px;
+                            margin-bottom: 15px;   
+                            font-weight: bold;
+                       }
+                   }
+                   .description{
+                       width: 100%;
+                       text-align: left;
+                       margin-top:20px;
+                       p{
+                        margin-bottom: 5px;
+                        font-weight: 600;
+                        font-size: 18px;
+                        a{
+                            text-decoration: none;
+                            color:#BCD74C;
+                            &:hover{
+                                color: #89a41d;
+                                transition: all .3s;
+                            }
+
+                        }
+                   }
+               }
+            }
+        }
+    }
+    }
+}

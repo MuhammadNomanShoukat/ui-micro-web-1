@@ -1,0 +1,48 @@
+#services_banner{
+    .link-wrapper {
+        .service-wrapper{
+            // max-width: 30%;
+            display: inline-block;
+            // color: white;
+            text-align: center;
+            padding: 20px 10px;
+            // border: 1px solid #383838;
+            border-radius: 10px;
+            margin: 20px;
+            transition: all .2s ease-in-out;
+            &:hover {
+                transform: scale(1.1);
+            }
+            .service-inner-wrapper{
+                .service-content{
+                    
+                    .image{
+                        transition: transform .3s; /* Animation */
+                        margin: 0 auto;
+                        width: 30%;
+                        &:hover{
+                            transform: scale(1.1);  
+                        }
+                    }
+                    .title{
+                        margin: 25px 0px;
+                        h5{ 
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            color:#000;
+                            font-size: 1.3rem;
+                        }
+                    }
+                    .desc{
+                        p{
+                            height: 100px;
+                            overflow: hidden;
+                            padding:10px;
+                            color:#000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

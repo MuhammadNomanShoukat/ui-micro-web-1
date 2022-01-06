@@ -1,0 +1,100 @@
+#work_history_section{
+    .main-container{
+        box-shadow: unset;
+        .main-heading-wrapper{
+            .heading-inner-wrapper{
+                
+                .heading{
+                    font-size: 24px;
+                    margin: 60px 0px;
+                    h1{
+                        margin: 0;
+                        font-size: 1em;
+                        line-height: 37px;
+                        color: #000000;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+
+        .hotel-wrapper{
+            
+            .hotel-inner-wrapper{
+               
+                .content{
+                    background-color: rgb(218, 111, 255);
+                    padding: 0px 20px 20px;
+                    min-height: 0px;
+                    height: 500px !important;
+                    .heading{
+                        font-size: 28px;
+                        padding-top: 20px;
+                        padding-bottom: 15px;
+                        h2{
+                            margin: 0;
+                            font-size: 1em;
+                            line-height: 42px;
+                            color: #ffffff;
+                            font-weight: bold;
+                        }
+                    }
+                    .sub-heading{
+                        p{
+                            color: #fff;
+                            max-width: 85%;
+                            margin-bottom: 0;
+                        }   
+                    }
+                    .bg-img{
+                        img{
+                            margin-left: 14px;
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .regent-wrapper{
+            .regent-inner-wrapper{
+                height: 560px !important;
+                display: flex;
+                align-items: flex-end;
+                .content{
+                    background-color: rgb(255,112,149);
+                    padding: 0px 20px;
+                    min-height: 0px;
+                    
+                    .heading{
+                        font-size: 28px;
+                        padding-top: 20px;
+                        padding-bottom: 15px;
+                        h2{
+                            margin: 0;
+                            font-size: 1em;
+                            line-height: 42px;
+                            color: #ffffff;
+                            font-weight: bold;
+                        }
+                    }
+                    .sub-heading{
+                        p{
+                            color: #fff;
+                            max-width: 85%;
+                            margin-bottom: 0;
+                        }   
+                    }
+                    .bg-img{
+                        
+                        padding: 20px 0px;
+                        min-height: 0px;
+                        // height: 470px !important;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

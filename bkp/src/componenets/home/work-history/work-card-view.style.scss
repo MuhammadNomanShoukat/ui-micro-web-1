@@ -1,0 +1,34 @@
+#work_card_section{
+    .main-container{
+        margin: 20px 0px;
+        box-shadow: unset;
+        .card-wrapper{
+            .card-inner-wrapper{
+                // background-color: rgb(255, 112, 149);
+                .content{
+                    .card-img{
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .card-heading{
+                        font-size: 28px;
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        h1{
+                            margin: 0;
+                            font-size: 1em;
+                            line-height: 42px;
+                            color: #3c3950;
+                            font-weight: bold;
+                        }
+                    }
+                    .card-detail{
+                        
+                    }
+                }
+            }
+        }
+    }
+}

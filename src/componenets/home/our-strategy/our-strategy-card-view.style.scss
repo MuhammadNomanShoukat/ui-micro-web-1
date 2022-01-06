@@ -1,0 +1,138 @@
+@mixin service-wrapper {
+    margin-top: 0px;
+    visibility: visible;
+    animation-duration: 0.7s;
+    margin-bottom: 20px;
+    transition: margin-top 700ms;
+}
+
+@mixin service-card-heading{
+    h2{
+        color: #3c3950;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding-bottom: 20px;
+        transition: color 500ms;
+    }
+}
+
+@mixin service-card-heading-hover{
+    .heading{
+        h2{
+            color:white;
+            transform: scale(1.0);
+        }
+    }
+}
+
+
+
+@mixin service-wrapper-hover {
+    @include service-card-heading-hover;
+    margin-top: -20px !important;
+    transform: scale(1.0);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.72);
+    -moz-box-shadow: 0px 0px 10px -4px rgba(0,0,0,0.72);
+}
+
+@mixin service-img-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+#our_strategy_section{
+    .main-container{
+        background-color: #fbfbf9;
+        margin-top: 50px;
+        margin-bottom: 15px;
+        padding: 50px 30px 60px 30px;
+        box-shadow: unset;
+        .container{
+            .our-strategy-wrapper{
+                .content{
+                    margin-top: 25px;
+                    margin-bottom: 15px;
+                    padding: 0px 30px 20px;
+                    .heading{
+                        font-size: 36px;
+                        margin-top: 10px;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        h2{
+                            margin: 0;
+                            font-size: 1em;
+                            line-height: 53px;
+                            color: #20232f;
+                            font-weight: bold;
+                            .green-text{
+                                color: #97b325
+                            }
+                        }
+                    }
+                }
+            }
+            .our-service1-wrapper{
+                @include service-wrapper;
+                &:hover{
+                    @include service-wrapper-hover;
+                    background-color: #fdbf2e;
+                }
+                .service1-img{
+                    @include service-img-center
+                }   
+                .heading{
+                    @include service-card-heading;
+                }
+            }
+            .our-service2-wrapper{
+                @include service-wrapper;
+                &:hover{
+                    @include service-wrapper-hover;
+                    background-color: #ff7674;
+                }  
+                .service2-img{
+                    @include service-img-center
+                } 
+                .heading{
+                    @include service-card-heading;
+                }
+                
+            }
+            .our-service3-wrapper{
+                @include service-wrapper;
+                &:hover{
+                    @include service-wrapper-hover;
+                    background-color: #0984e2;
+                }
+                .service3-img{
+                    @include service-img-center
+                }   
+                .heading{
+                    @include service-card-heading;
+                }
+            }
+            .our-service4-wrapper{
+                @include service-wrapper;
+                &:hover{
+                    @include service-wrapper-hover;
+                    background-color: #00cfc9;
+                }   
+                .service4-img{
+                    @include service-img-center
+                }
+                .heading{
+                    @include service-card-heading;
+                }
+            }   
+        }
+    }
+}

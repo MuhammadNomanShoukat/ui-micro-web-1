@@ -1,0 +1,21 @@
+.heading-wrapper{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    // padding: 0px 30px 20px;
+    .heading-text{
+        font-size: 36px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        // text-align: center;
+        h2{
+            margin: 0;
+            font-size: 1em;
+            line-height: 53px;
+            color: #20232f;
+            font-weight: bold;
+            .green-text{
+                color: #97b325
+            }
+        }
+    }
+}

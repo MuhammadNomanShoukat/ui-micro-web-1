@@ -1,0 +1,21 @@
+#great_work_section{
+    .main-container{
+        box-shadow: unset;
+        .work-wrapper{
+            .work-inner-wrapper{
+                .content{
+                    font-size: 24px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    h2{
+                        margin: 0;
+                        font-size: 1em;
+                        line-height: 38px;
+                        color: #ffffff;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+}
+}

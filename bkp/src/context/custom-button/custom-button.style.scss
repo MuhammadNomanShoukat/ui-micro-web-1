@@ -1,0 +1,36 @@
+.custom-button-wrapper{
+    .custom-button{
+        margin-top: 20px;
+        display: inline-block;
+        a{
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+            text-decoration: none;
+            background: #97b325;
+            transition: all .2s;
+            border-color: rgba(120, 4, 4, 0);
+            border-radius: 6px;
+            padding: 15px 45px;
+            line-height: 21px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        a.custom-btn-style{
+            color: #fff !important;
+            &:hover{
+                background: #20232f;
+            }
+        }
+
+        a.talk-to-us{
+            color: #20232f !important;
+            text-transform: uppercase;
+            &:hover{
+                background: #20232f;
+                color: #fff !important;
+            }
+        }
+    }
+}

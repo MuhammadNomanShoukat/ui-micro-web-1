@@ -1,0 +1,5 @@
+export const GET_SERVICES = "GET_SERVICES";
+export const GET_WORK_HISTORY = "GET_WORK_HISTORY";
+export const GET_CODE_LEVEL = "GET_CODE_LEVEL";
+export const OUR_STRATEGOIES = "OUR_STRATEGOIES";
+

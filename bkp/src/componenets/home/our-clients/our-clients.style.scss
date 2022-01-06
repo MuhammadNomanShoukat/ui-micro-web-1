@@ -1,0 +1,40 @@
+#our_clients_section{
+    .main-container{
+        padding:30px 0px 25px;
+        max-width: 1140px;
+        box-shadow: unset;
+        .strategies-list-preview{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        margin-bottom: 15px;
+        // padding: 30px 30px 60px 30px;
+        .container{
+            padding:0px;
+            .our-clients-wrapper{
+                .content{
+                    padding:15px 0px 0px;
+                    .heading{
+                        font-size: 36px;
+                        margin-top: 10px;
+                        margin-bottom: 5px;
+                        text-align: center;
+                        h2{
+                            margin: 0;
+                            font-size: 1em;
+                            line-height: 53px;
+                            color: #20232f;
+                            font-weight: bold;
+                            text-transform: uppercase;
+                            .green-text{
+                                color: #97b325
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

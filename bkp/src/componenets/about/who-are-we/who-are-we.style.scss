@@ -1,0 +1,44 @@
+.main-container{
+    .inner-container{
+        .content-wrapper{
+            .content{
+                img{
+                    width: 100%;
+                }
+                .heading-wrapper{
+                    margin-bottom: 40px;
+                    padding:0px;
+                    .heading-text{
+                        text-align: left;
+                    }
+                }
+                h2{
+                    font-size: 40px;
+                }
+                h5{
+                    color: #212934;
+                    font-size: 24px;
+                    margin-bottom: 15px;
+                    font-weight: 300;
+                }
+                .desc{
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                    font-weight: 500;
+                }
+                .btn-wrapper{
+                    display: flex;
+                    margin-top: 20px;
+                    .custom-button-wrapper{
+                        margin-right:20px;
+                    }
+
+                    .about-us{
+
+                    }
+                }
+                
+            }
+        }
+    }
+}

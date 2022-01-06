@@ -1,0 +1,103 @@
+.desc-slider-wrapper{
+    display: flex;
+    justify-content: center;
+    .desc-slider{
+        width: 80%;
+        .slick-slider{
+            
+            .slick-list{
+                transform: translate(10px, 10px);
+                &:hover{
+                    cursor: grab;
+                }
+                .slick-slide{
+                    border:unset
+                }
+
+                
+            }
+            ul.slick-dots {
+                bottom: unset;
+                margin:15px 0px 0px;
+                li button::before {
+                    font-size: 18px;
+                }
+                li.slick-active button::before {
+                    opacity: 1;
+                    color: #1D242D;
+                }
+            }
+            .slick-next::before, 
+            .slick-prev::before {
+                font-size: 50px;
+                line-height: 1;
+                opacity: .75;
+                color: #ccc;   
+                
+            }
+
+            
+            
+        }
+    }
+}
+
+.desc-wrapper{
+    width: 50%;
+    .content{
+        text-align: center;
+        
+        .description{
+            
+            p{
+                display: block;
+                padding: 25px;
+                background-color: transparent;
+                line-height: 30px;
+                font-size: 18px;
+                text-align: center;
+                letter-spacing: 2px;
+                font-weight: 300;
+                color: #000;
+                background-color: #F9F9FB;
+                
+            }
+        }
+        .other-info{
+            color: #000;
+            
+            .client-name{
+                font-weight: bold;
+                
+            }
+            .contract-date{
+                margin-left:10px;
+            }
+        }
+    }
+}
+
+.img-wrapper{
+    .client-slider{
+        .slick-slider{
+            
+            .slick-list{
+                padding:50px !important;
+            }
+            
+        }
+        
+        
+    }
+    img{
+        transition: all 500ms;
+        // width: 70%;
+        // height: 150px;
+        &:hover{
+            transform: scale(1.1);
+            box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.68);
+            -webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.68);
+            -moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.68);
+        }
+    }
+}
